@@ -1,6 +1,5 @@
 # BODD
-Bayesian Optimization for a Degree Day model (BODD)
-(Coincidence: BODD also means "lived" in Norwegian)
+Bayesian Optimization for a Degree Day model (BODD)[^1]
 
 This is a minimal working example of **Bayesian Optimization** (BO) for calibrating cryospheric models in pure **MATLAB** code originally created during the Machine Learning session at the It's The Cryogrid Hackathon (ITCH) in 2024. Through [convergent evolution](https://en.wikipedia.org/wiki/Convergent_evolution), others in the CryoGrid community (and beyond) are now getting interested in this area so I put this on github in case it is useful now more than a year later. It is also a lesson that code should be shared early to make existing synergies more visible rather than made to collect dust. Hopefully it is helpful to someone for gaining an understanding of how BO works and maybe even someone wants to remix this so as to use it with more complex models like CryoGrid. The benefit of using MATLAB for this with CryoGrid is you would not need a wrapper so it could be done in the "inner loop".
 
@@ -16,6 +15,7 @@ Don't hesitate to get in touch if you have questions, want to work on something 
 Cheers,
 Kris 
 
+[^1]: Fun naming coincidence for the linguists out there: BODD means "lived" in Norwegian. 
 
 
 
