@@ -7,7 +7,7 @@ This is a minimal working example of **Bayesian Optimization** (BO) for calibrat
 The method is implemented in a bare bones manner here but the overall recipe is simple: train an emulator (surrogate model) typically in the form of a **Gaussian Process** (GP) to mimic the parameter response of your model in terms of some objective (pick your favorite, from Mean Squared Error to something more exotic) which can then be used to pick new locations (ideally based on **Bayesian Decision Theory**, hence the `Bayesian') in parameter space to run your full model. This can converge in very few steps, is fully automatable, and generally much more efficient than other brute force techniques (grid search) or hand tuning. It is one of the standard methods for tuning hyperparameters in deep learning in a field known as [autoML](https://www.automl.org/hpo-overview/).
 
 For more on BO (and GPs) I highly recommend the free book by Garnett:
-[Bayesian Optimizatin](https://bayesoptbook.com/)
+[Bayesian Optimization](https://bayesoptbook.com/)
 and for an introduction to Gaussian Processes ("infinite width neural networks" if you want to show off...) check out the classic GP bible by Rasmussen and Williams which is also freely available here:
 [Gaussian Processes for Machine Learning](https://gaussianprocess.org/gpml/)
 
